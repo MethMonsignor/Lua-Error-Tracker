@@ -1,3 +1,9 @@
+--[[
+Lua Error Tracker
+Copyright (c) 2025 Meth Monsignor, Emporium Server Owner
+Licensed under the MIT License.
+Free to use, modify, and distribute with attribution.
+]]
 -- lua_error_tracker.lua
 local ErrorTracker = {}
 ErrorTracker.enabled = true
@@ -98,5 +104,6 @@ if concommand and concommand.Add then
         print("[ErrorTracker] Enabled:", ErrorTracker.enabled)
     end)
 end
+
 
 return ErrorTracker
